@@ -1,0 +1,122 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	font-family: sans-serif;
+	background-image: url("http://www.elguillemola.com/img/ExcursionalaStupadeKalachakraenVelez_11FD5/DSC_15233_lr.jpg");
+}
+
+.buscador{
+	margin: auto;
+	text-align: center;
+	font-family: Lobster;
+	background-color: #1a8cff;
+	border-top-left-radius:  7px;
+	border-top-right-radius: 7px;
+}
+
+.textoBuscador{
+	font-size: 40px;
+}
+
+.textoLogin{
+font-size: 25px;
+}
+
+.textoLogin2{
+font-size: 20px;
+}
+
+.textoLogin3{
+	color:white;
+font-size: 20px;
+	
+}
+
+.esciribirBuscador{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.textoLogin{}
+
+.listaPokemons{
+	width: 98%;
+	max-width: 1200px;
+	margin: auto;
+	border-radius: 7px;
+	background-color: #99ceff;
+
+
+}
+
+#pokemon{
+	padding: 20px;
+	display: flex;
+	width: : 200px;
+	webkit-box-shadow: 1px 1px 137px -3px rgba(111,63,14,0.80);
+-moz-box-shadow: 1px 1px 137px -3px rgba(111,63,14,0.80);
+box-shadow: 1px 1px 137px -3px rgba(111,63,14,0.80);
+
+
+}
+
+.nombre{
+	text-align: center;
+	margin-left: 10px;
+	margin-top: 10%;
+	font-size: 35px;
+	margin-left: 5%;
+	text-shadow: 3px 3px 5px #f00,
+               6px 6px 5px #0f0,
+               9px 9px 5px #00f;
+}
+
+.ataque{
+text-align: center;
+	margin-left: 10px;
+	margin-top: 10%;
+	font-size: 35px;
+	margin-left: 5%;
+	text-shadow: 3px 3px 5px #f80,
+               6px 6px 5px #Df2,
+               9px 9px 5px #00f;
+}
+
+.tipo{
+	text-align: center;
+	margin-left: 10px;
+	margin-top: 10%;
+	font-size: 35px;
+	margin-left: 5%;
+	text-shadow: 3px 3px 5px #f00,
+               6px 6px 5px #Af0,
+               9px 9px 5px #B0f;
+}
+
+.modificar{
+	margin: auto;
+	text-align: center;
+	font-family: Lobster;
+	
+}
+
+.eliminar{
+	margin: auto;
+	text-align: center;
+	font-family: Lobster;
+	
+}
+
+.insertAgregar{
+width: 315px;	
+}
+
+.noexiste{
+	font-family: Lobster;
+	font-size: 20px;
+	margin-left: 43%;
+	color: red;
+}
